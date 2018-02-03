@@ -6,13 +6,10 @@
 
     To create CoffeeMaker Server and install all the dependencies requrired and then run it.
     
-    Server IP: 192.168.33.15
 
 ### 2) Selenium:
 
-    To create Selenium Server and install all the dependencies requrired and then test the server running on 192.168.33.15.
-    
-    Server IP: 192.168.33.17
+    To create Selenium Server and install all the dependencies requrired and then test the server running on 192.168.33.11
 
 ## Setup
 
