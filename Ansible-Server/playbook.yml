@@ -1,0 +1,15 @@
+---
+  - name: CoffeeMaker
+    hosts: CoffeeMaker
+    become: yes
+    vars_prompt:
+    - name: "mysql_pass"
+      prompt: "what is the mysql password"
+    roles:
+      - CoffeeMaker
+      
+  - name: Selenium
+    hosts: Selenium
+    become: yes
+    roles:
+      - Selenium

@@ -1,0 +1,5 @@
+[CoffeeMaker]
+192.168.33.11 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/vagrant/CoffeeMaker_private_key
+
+[Selenium]
+192.168.33.12 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/vagrant/Selenium_private_key
